@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manpower Report</title>
+    <title>Manpower and Equipment Report</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,7 +51,11 @@
         </div>
     </header>
 
+    <h2>Manpower Report</h2>
     <img src="222.png" alt="Manpower Report">
+
+    <h2>Equipment Report</h2>
+    <img src="333.png" alt="Equipment Report">
 
     <script>
         // Function to update current time and date
@@ -75,7 +79,7 @@
 
         // Function to send the image via WhatsApp
         function sendWhatsApp() {
-            const url = "https://wa.me/?text=" + encodeURIComponent("Check out this Manpower Report") + " " + window.location.href;
+            const url = "https://wa.me/?text=" + encodeURIComponent("Check out this report") + " " + window.location.href;
             window.open(url, '_blank');
         }
     </script>
